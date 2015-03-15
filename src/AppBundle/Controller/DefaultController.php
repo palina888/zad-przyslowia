@@ -241,7 +241,7 @@ public function  dwochglupichAction()
     /*
      * P
      */
-
+   
     /**
      * @Route("/prawda.html", name="prawda")
      */
@@ -436,6 +436,13 @@ public function ktopodkimdolkiAction()
   {
     return $this->render('default/smiech.html.twig');
   }
-
+  
+    /**
+    * @Route("/pierwsze-pol.html", name="pierwsze-pol")
+    */
+  public function pierwszepolAction()
+   {
+    return $this->render('default/pierwsze-pol.html.twig');
+   }
 
 }
