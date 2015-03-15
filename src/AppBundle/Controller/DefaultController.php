@@ -437,5 +437,12 @@ public function ktopodkimdolkiAction()
     return $this->render('default/smiech.html.twig');
   }
 
-
+    /**
+     * @Route("/pierwsze-pol.html", name="pierwsze-pol")
+    */
+    public function pierwszePolAction()
+    {
+    return $this->render('default/pierwsze-pol.html.twig');
+    }
+    
 }
