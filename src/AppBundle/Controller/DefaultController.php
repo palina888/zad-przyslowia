@@ -259,6 +259,7 @@ public function coLatoOdkladaAction()
     /*
      * K
      */
+
      
       /**
      * @Route("/Kobiety.html", name="Kobiety")
@@ -683,4 +684,15 @@ public function AksamityAction()
 {
     return $this->render('default/Aksamity.html.twig');
 }
+ /*
+     * BB
+     */
+/**
+ * @Route("/gosc-w-domu.html", name="gosc-w-domu")
+ */
+public function goscwdomuAction()
+{
+    return $this->render('default/gosc-w-domu.html.twig');
+}
+
 }
