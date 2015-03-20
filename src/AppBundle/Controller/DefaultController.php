@@ -280,6 +280,14 @@ public function  dwochglupichAction()
     return $this->render('default/dwochglupich.html.twig');
 }
 
+/**
+ * @Route("/lepsza.html", name="lepsza")
+ */
+public function  lepszaAction()
+{
+    return $this->render('default/lepsza.html.twig');
+}
+
     /*
      * M
      */
