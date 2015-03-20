@@ -111,6 +111,13 @@ class SecondController extends Controller
     /*
      * R
      */
+    /**
+     * @Route("/kto-nie-wypije.html", name="kto-nie-wypije")
+     */
+    public function ktoniewypijeAction()
+    {
+        return $this->render('default/kto-nie-wypije.html.twig');
+    }
 
     /*
      * S
