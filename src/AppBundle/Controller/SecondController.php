@@ -65,7 +65,13 @@ class SecondController extends Controller
     /*
      * F
      */
-
+    /**
+     * @Route("/od-sasa-do-lasa.html", name="od-sasa")
+     */
+    public function bylobyAction()
+    {
+        return $this->render('default/od-sasa-do-lasa.html.twig');
+    }
     /*
      * G
      */
