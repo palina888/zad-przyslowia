@@ -492,6 +492,13 @@ public function  dwochglupichAction()
         return $this->render('default/regula-prosta.html.twig');
     }
 
+    /**
+    * @Route("/coKomu.html", name="coKomu")
+    */
+    public function coKomuAction()
+    {
+        return $this->render('default/coKomu.html.twig');
+    }
     /*
      * Y
      */
