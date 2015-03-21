@@ -135,7 +135,13 @@ public function  MiedzyPowiedzeniemAction()
 {
     return $this->render('default/miedzy-powiedzeniem.html.twig');
 }
-    
+    /**
+    * @Route("/czlowiekowi.html", name="czlowiekowi")
+    */
+    public function czlowiekowiAction()
+    {
+    return $this->render('default/czlowiekowi.html.twig');
+    }
     
     /**
     * @Route("/bez-matki.html", name="bez matki")
