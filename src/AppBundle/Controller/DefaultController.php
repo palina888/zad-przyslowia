@@ -32,7 +32,7 @@ class DefaultController extends Controller
     {
         return $this->render('default/czlek-zdechnie.html.twig');
     }
-
+        
     /*
      * B
      */
@@ -224,7 +224,13 @@ public function coLatoOdkladaAction()
      * K
      */
      /**
-      
+      /**
+ * @Route("/natwarde.html", name="natwarde")
+ */
+public function  natwardeAction()
+{
+    return $this->render('default/natwarde.html.twig');
+}
      /**
      * @Route("/za-mundurem.html", name="za-mundurem")
      */
