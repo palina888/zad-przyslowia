@@ -64,6 +64,14 @@ class ThirdController extends Controller
      * F
      */
 
+    /**
+    * @Route("/madrej-glowie.html", name="madrej-glowie")
+    */
+    public function madrejGlowieAction()
+    {
+        return $this->render('default/madrej-glowie.html.twig');
+    } 
+
     /*
      * G
      */
