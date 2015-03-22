@@ -184,6 +184,13 @@ public function coLatoOdkladaAction()
         return $this->render('default/stare-wino.html.twig');
     }
 
+    /**
+    * @Route("/gdyPszczola.html", name="gdy Pszczola")
+    */
+    public function gdyPszczolaAction()
+    {
+        return $this->render('default/gdyPszczola.html.twig');
+    }
     /*
      * H
      */
