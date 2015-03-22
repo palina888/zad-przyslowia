@@ -560,5 +560,12 @@ public function biedneyAction()
 {
     return $this->render('default/biedny.html.twig');
 }
+/**
+ * @Route("/zyda.html", name="zyda")
+ */
+public function zydaAction()
+{
+    return $this->render('default/zyda.html.twig');
+}
 
 }
