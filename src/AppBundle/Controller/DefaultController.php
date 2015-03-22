@@ -323,6 +323,15 @@ public function  dwochglupichAction()
    {
        return $this->render('default/gdzie-glowa-rzadzi.html.twig');
    }
+   
+    /**
+    * @Route("/co-w-kobiecym.html", name="co-w-kobiecym")
+    */
+   public function  coWKobiecymAction()
+   {
+       return $this->render('default/co-w-kobiecym.html.twig');
+   }
+   
     /*
      * O
      */
