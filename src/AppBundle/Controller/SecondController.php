@@ -75,7 +75,13 @@ class SecondController extends Controller
     /*
      * G
      */
-
+    /**
+     * @Route("/pospiech-jest.html", name="pospiech")
+     */
+    public function pospiechjestAction()
+    {
+        return $this->render('default/pospiech-jest.html.twig');
+    }
     /*
      * H
      */
