@@ -2,5 +2,5 @@ Feature: Web pages
 
   Scenario: "lepiej"
     Given I am on homepage
-    When I follow "lepiej-z-madrym.html"
-    Then I should see "Lepiej z m¹drym zgubiæ ni¿ z g³upim znaleŸæ."
+    When I follow "Lepiej z mÄ…drym..."
+    Then I should see "Lepiej z mÄ…drym zgubiÄ‡ niÅ¼ z gÅ‚upim znaleÅºÄ‡."

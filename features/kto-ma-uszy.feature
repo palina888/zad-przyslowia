@@ -2,5 +2,5 @@ Feature: Web pages
 
   Scenario: "Kto ma uszy"
     Given I am on homepage
-    When I follow "kto-ma-uszy.html"
-    Then I should see "Kto ma uszy, niechaj s≥ucha!"
+    When I follow "Kto ma uszy..."
+    Then I should see "Kto ma uszy, niechaj s≈Çucha!"
