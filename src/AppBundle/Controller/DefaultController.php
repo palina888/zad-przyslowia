@@ -259,6 +259,16 @@ public function coLatoOdkladaAction()
     /*
      * K
      */
+     
+      /**
+     * @Route("/Kobiety.html", name="Kobiety")
+     */
+     public function KobietyAction()
+     {
+        return $this->render('default/Kobiety.html.twig');
+     }
+     
+     
      /**
       /**
  * @Route("/natwarde.html", name="natwarde")
