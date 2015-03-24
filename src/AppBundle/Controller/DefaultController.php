@@ -307,6 +307,14 @@ public function  natwardeAction()
         return $this->render('default/gabrielu.html.twig');
     }
 
+	/**
+	* @Route("/kto-ma-uszy.html", name="kto-ma-uszy")
+	*/
+	public function KtoMaUszyAction()
+	{
+		return $this->render('default/kto-ma-uszy.html.twig');
+	}
+	
     /*
      * L
      */
@@ -331,6 +339,13 @@ public function  dwochglupichAction()
 {
     return $this->render('default/dwochglupich.html.twig');
 }
+    /**
+    * @Route("/lepiej-z-madrym.html", name="lepiej-z-madrym")
+    */
+    public function lepiejZmadrymAction()
+    {
+        return $this->render('default/lepiej-z-madrym.html.twig');
+    }
 
 /**
  * @Route("/lepsza.html", name="lepsza")
