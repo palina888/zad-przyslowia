@@ -307,6 +307,15 @@ public function  dwochglupichAction()
     {
         return $this->render('default/bujac-to.html.twig');
     }
+    
+    /**
+    * @Route("/milczenie.html", name="milczenie")
+    */
+    public function milczenieAction()
+    {
+        return $this->render('default/milczenie.html.twig');
+    }
+    
     /**
      * @Route("/dlatego-dwie-uszy.html", name="dlatego-dwie-uszy")
     */
