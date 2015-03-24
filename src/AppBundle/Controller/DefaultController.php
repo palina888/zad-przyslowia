@@ -332,7 +332,15 @@ public function  dwochglupichAction()
     /*
      * N
      */
-
+    
+    /**
+     * @Route("/najlepsza.html", name="najlepsza")
+     */
+    public function  NajlepszaAction()
+    {
+        return $this->render('default/najlepsza.html.twig');
+    }
+    
     /**
     * @Route("/gdzie-glowa-rzadzi.html", name="gdzie-glowa-rzadzi")
     */
