@@ -77,7 +77,14 @@ public function  bujactolasAction()
     /*
      * C
      */
-    /**
+        /**
+        * @Route("/chocbys-mial.html", name="chocbys-mial")
+        */
+       public function chocbysmialAction()
+       {
+           return $this->render('default/chocbys-mial.html.twig');
+       }
+       /**
     * @Route("/utrapienia.html", name="utrapienia")
     */
     public function utrapieniaAction()
