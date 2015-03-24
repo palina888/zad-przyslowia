@@ -561,4 +561,11 @@ public function biedneyAction()
     return $this->render('default/biedny.html.twig');
 }
 
+/**
+ * @Route("/Aksamity.html", name="Aksamity")
+ */
+public function AksamityAction()
+{
+    return $this->render('default/Aksamity.html.twig');
+}
 }
