@@ -148,7 +148,13 @@ public function  MiedzyPowiedzeniemAction()
 {
     return $this->render('default/miedzy-powiedzeniem.html.twig');
 }
-    
+    /**
+ * @Route("/zle.html", name="zle")
+ */
+public function zleAction()
+{
+    return $this->render('default/zle.html.twig');
+}
     
     /**
     * @Route("/bez-matki.html", name="bez matki")
