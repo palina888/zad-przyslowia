@@ -150,6 +150,16 @@ public function  MiedzyPowiedzeniemAction()
      * F
      */
     /**
+ * @Route("/dziad-jak.html", name="dziad-jak")
+ */
+public function  dziadJakAction()
+{
+    return $this->render('default/dziad-jak.html.twig');
+}
+    
+    
+    
+    /**
  * @Route("/Aby-do-wiosny.html", name="Aby-do-wiosny")
  */
     public function AbydowiosnyAction()
