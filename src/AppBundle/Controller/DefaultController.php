@@ -141,6 +141,13 @@ public function  bujactolasAction()
     /*
      * E
      */
+/**
+ * @Route("/elektryka_prad_nie_tyka.html", name="elektryka_prad_nie_tyka")
+ */
+public function elektrykaPradNieTykaAction()
+{
+    return $this->render('default/elektryka_prad_nie_tyka.html.twig');
+}    
     /**
  * @Route("/miedzy-powiedzeniem.html", name="mierzy-powiedzeniem")
  */
