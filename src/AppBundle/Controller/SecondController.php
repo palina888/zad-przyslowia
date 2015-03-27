@@ -120,6 +120,14 @@ class SecondController extends Controller
      * K
      */
 
+     /**
+     * @Route("/Kot.html", name="Kot")
+     */
+    public function KotAction()
+    {
+        return $this->render('default/Kot.html.twig');
+    }
+    
     /*
      * L
      */
