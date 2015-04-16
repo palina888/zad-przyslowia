@@ -682,8 +682,7 @@ public function biedneyAction()
 public function zydaAction()
 {
     return $this->render('default/zyda.html.twig');
-}
-
+}  
 /**
  * @Route("/Aksamity.html", name="Aksamity")
  */
@@ -702,4 +701,14 @@ public function goscwdomuAction()
     return $this->render('default/gosc-w-domu.html.twig');
 }
 
+/*
+* BR
+*/
+/**
+* @Route("/brama.html", name="brama")
+*/
+public function  bramaAction()
+{
+    return $this->render('default/brama.html.twig');
+}
 }
